@@ -1,0 +1,278 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #fafafa;
+    height: 100%;
+    line-height: 18px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 665px;
+}
+
+.left {
+    display: inline-block;
+    size: 300px;
+    position: relative;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-image: url(../img/1dc085cdb87d.png);
+    background-size: 468.32px 634.15px;
+    background-position: -5px 0px;
+    height: 600px;
+    width: 424px;
+    margin-left: 19.5%;
+    margin-right: 32px;
+    margin-bottom: 12px;
+}
+
+.screen {
+    position: absolute;
+    width: 250px;
+    top: 27px;
+    left: 154px;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    margin-top: 12px;
+}
+
+.autor {
+    width: 348px;
+    height: 100%;
+    background-color: white;
+    border: 1px solid rgb(226, 226, 226);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
+}
+
+.inst {
+    display: block;
+    position: relative;
+    margin-top: 36px;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inp-user{
+    width: 258px;
+    height: 20px;
+    margin: 24px 40px 6px 40px;
+    border: 1px solid #dbdbdb;
+    font-size: 12px;
+    padding: 9px 0px 7px 8px;
+    border-radius: 2px;
+}
+
+.pas-user{
+    width: 258px;
+    height: 20px;
+    margin: 0px 40px 6px 40px;
+    border: 1px solid #dbdbdb;
+    font-size: 12px;
+    padding: 9px 0px 7px 8px;
+    border-radius: 2px;
+}
+
+.butt {
+    margin: 8px 40px 8px 40px;
+    width: 268px;
+    height: 30px;
+    border: 0;
+    background: rgba(0,149,246,.3);
+    color: white;
+    font-size: 14px;
+    font-weight: 450;
+    border-radius: 4px;
+}
+
+.butt a, .butt a:visited, .butt a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.orblock {
+    width: 268px;
+    height: 15px;
+    margin: 10px 40px 18px 40px;
+}
+
+.line {
+    width: 101.475px;
+    height: 0.5px;
+    background-color: #dbdbdb;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.or {
+    margin: 0 12.5px;
+    font-size: 14px;
+    color:#8e8e8e;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.facebook {
+    margin: 8px 40px 8px 40px;
+    width: 268px;
+    height: 19.6px;
+}
+
+.facebook a, .facebook a:visited, .facebook a:hover {
+    display: flex;
+    justify-content: center;
+    color: #385185;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.facebook a img {
+    margin-right: 8px;
+    height: 16px;
+    width: 16px;
+}
+
+.error p{
+    margin: 14px 40px;
+    color: rgb(237, 73, 86);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+}
+
+.remove {
+    margin-top: 10px;
+    width: 348px;
+    height: 16;
+}
+
+.remove a {
+    display: flex;
+    justify-content: center;
+    color: #00376b;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 22px;
+}
+
+.regis {
+    width: 348px;
+    height: auto;
+    background-color: white;
+    border: 1px solid rgb(226, 226, 226);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.regis p {
+    margin: 11.3px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.regis a, .regis a:visited, .regis a:hover {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.app {
+    width: 350px;
+    height: 101.6px;
+    text-align: center;
+    position: relative;
+}
+
+.app p{
+    margin: 20px;
+    font-size: 14px;
+}
+
+.appi {
+    display: flex;
+    margin: 10px 0;
+    justify-content: center;
+}
+
+.appimg {
+    float: left;
+    width: 136px;
+    margin-right: 8px;
+}
+
+footer {
+    margin-bottom: 52px;
+    color: #8e8e8e;
+}
+
+.footers {
+    margin-top: 24px;
+    font-size: 12px;
+}
+
+.topp {
+    display: flex;
+    justify-content: center;
+}
+
+.topp a, .topp a:visited, .topp a:hover {
+    margin: 0px 8px 12px 8px;
+    height: 11px;
+    color: #8e8e8e;
+    text-decoration: none;
+}
+
+.bott {
+    display: flex;
+    justify-content: center;
+}
+
+.bott a {
+    display: inline-block;
+    margin: 0px 8px 12px 8px;
+    height: 11px;
+}
+
+.langu {
+    margin: 12px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.langu select {
+    border: none;
+    background: #fafafa;
+    font-size: 12px;
+    height: 16px;
+    width: 67px;
+    color: #8e8e8e;
+}
+
+.langu p {
+    margin: 0 0 0 16px;
+    height: 11px;
+}
+
+.notation {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgb(142, 142, 142);
+    margin: 8px 40px;
+}
